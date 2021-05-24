@@ -489,7 +489,7 @@ def main():
         for item in os.listdir(args.all_benchmark_dir):
             single_benchmark_dir = os.path.join(args.all_benchmark_dir, item)
             if os.path.isdir(single_benchmark_dir):
-                diff_sinlge_spec_benchmark(single_benchmark_dir, args.out_dir, args.ws_th, args.fs_th, args.ins_th, args.bb_th, args.size_th, args.func_regex, args.debug, args.clear, args.newidb, args.use_pyidb)
+                diff_sinlge_spec_benchmark(single_benchmark_dir, args.type, args.out_dir, args.ws_th, args.fs_th, args.ins_th, args.bb_th, args.size_th, args.func_regex, args.debug, args.clear, args.newidb, args.use_pyidb)
         
 if ( __name__ == "__main__" ):
     main()
