@@ -386,7 +386,7 @@ def diff_sinlge_spec_benchmark(benchmark_dir, bin_type, out_dir, ws_th, fs_th, i
         current_time = time.strftime('%Y_%m_%d %H:%M:%S',time.localtime(time.time()))
         result_file.write("[{}]Start processing benchmark: {}\n".format(current_time, benchmark_dir))
         print("[{}]Start processing benchmark: {}".format(current_time, benchmark_dir))
-        print("Bindiff result is writed to file: {}".format(result_file_path))
+        print("Bindiff result is written to file: {}".format(result_file_path))
 
         primary = ''
         for item in os.listdir(exe_path):
