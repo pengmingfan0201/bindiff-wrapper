@@ -25,7 +25,7 @@ g_ws_th = 0.01 # whole binary similarity threshold
 g_fs_th = 1.0 #0.70 # function similarity threshold
 g_ins_th = 10 # instruction threshold
 g_bb_th = 0 # basic block threshold
-g_size_th = 10 # file size threshold (MB)
+g_size_th = 100 #10 # file size threshold (MB)
 #g_func_regex = r'sub_|fn_|chg_' # function name filter rule
 g_func_regex = r'.*' # function name filter rule
 
